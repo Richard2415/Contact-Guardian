@@ -52,7 +52,7 @@ Navbar.propTypes = {
 };
 
 Navbar.defaultProps = {
-    title: "Contact Keeper",
+    title: "Contact Guardian",
     icon: "fa fa-address-book"
 };
 
