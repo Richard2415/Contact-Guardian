@@ -50,24 +50,24 @@ function ContactForm() {
             </h3>
             <label>
                 Name
-                <input type="text" name="name" value={name} placeholder="Jane Doe" onChange={onChange} required />
+                <input type="text" name="name" value={name} placeholder="eg:Ronaldo" onChange={onChange} required />
             </label>
 
             <label>
                 Email
-                <input type="email" name="email" value={email} placeholder="janedoe@gmail.com" onChange={onChange} />
+                <input type="email" name="email" value={email} placeholder="eg:ronaldo@gmail.com" onChange={onChange} />
 
             </label>
             <label>
                 Phone Number
-                <input type="text" name="phone" value={phone} placeholder="+234814433453" onChange={onChange} />
+                <input type="text" name="phone" value={phone} placeholder="eg:9516478210" onChange={onChange} />
             </label>
 
             <h5> Type</h5>
 
             <label>
                 Personal
-            <input type="radio" className="mx-1" name="type" value="personal" checked={type === "personal"} onChange={onChange} />
+                <input type="radio" className="mx-1" name="type" value="personal" checked={type === "personal"} onChange={onChange} />
             </label>
             <label>
                 Professional
